@@ -6,7 +6,21 @@
     <title>MBP</title>
     <title>login page</title>
     <style>
-    #center {
+      #main{
+        max-width: 360px;
+      margin: 80px auto;
+      padding: 40px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border: 3px solid rgb(5, 5, 5);
+      border-radius: 10px;
+      width: 300px;
+      height: 400px;
+      border: 3px solid rgb(5, 5, 5);
+      border-radius: 10px;
+    }
+     #center {
         
       text-align: center;
     
@@ -25,21 +39,21 @@
     }
   </style>
 </head>
-<body style="background-color: lightblue;">
-<h2>Major Buisness Project</h2>
+<body background="C:\Users\anbum\OneDrive\Documents\OneDrive\MBP\bakki2.jpg">
+<div id="main">
   <div id="center">
-    <img width="250px"src="C:\Users\anbum\OneDrive\Pictures\bg image 2.jpg"  alt="" class="circle-image">
+    <h2>Major Buisness Project</h2>
+    <img width="250px"src="C:\Users\anbum\OneDrive\Documents\OneDrive\MBP\bg image 2.jpg"  alt="" class="circle-image">
   </div>
       <h2>Login Page</h2>
 
   <form action="/login" method="post">
     <div class="center">
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username" required><br><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
-    <input type="submit" value="Login">
+    <input type="text" placeholder="username or Email" id="username" name="username" required><br><br>
+    <input type="password" placeholder="password"  id="password" name="password" required><br><br>
+    <input type="submit" value="Login" style="background-color: rgb(76, 103, 162);">
     </div>
+  </div>
 
 </body>
 </html>
